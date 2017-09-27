@@ -1,12 +1,23 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/indexRoom/index",
+    "pages/gamingRoom/gaming",
+    "pages/waitingRoom/waiting",
+    "pages/userInfo/UserInfo"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "宇宙无敌狼人杀法官小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "list":[
+      {"text":"aaa","pagePath":"pages/indexRoom/index"},
+      {"text":"bbb","pagePath":"pages/userInfo/UserInfo"}
+    ],
+    "backgroundColor":”#ffffff“,
+    "color:"#000000",
+    "selectedColor":"#ff0000"
   }
 }
