@@ -13,11 +13,11 @@
   },
   "tabBar":{
     "list":[
-      {"text":"aaa","pagePath":"pages/indexRoom/index"},
-      {"text":"bbb","pagePath":"pages/userInfo/UserInfo"}
+      {"text":"游戏界面","pagePath":"pages/indexRoom/index"},
+      {"text":"用户信息","pagePath":"pages/userInfo/UserInfo"}
     ],
-    "backgroundColor":”#ffffff“,
-    "color:"#000000",
+    "backgroundColor":"#ffffff",
+    "color":"#000033",
     "selectedColor":"#ff0000"
   }
 }

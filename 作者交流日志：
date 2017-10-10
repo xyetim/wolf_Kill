@@ -5,3 +5,6 @@
 				也可以将 是否被刀、被毒、被守做成一个状态 是否活着	 
 				最后需要将所有人的操作都通知给裁判 可以在写流程的时候输出一下操作
 	微信前台： 前后台的交互信息都是通过json形式
+
+	http://www.jianshu.com/p/e2eb0d8c9de6   ————box-sizing
+	http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html————display:flex

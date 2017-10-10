@@ -2,7 +2,11 @@
 .userinfo {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;  
+  position: relative;
+
+
+
 }
 
 .userinfo-avatar {
@@ -16,6 +20,12 @@
   color: #aaa;
 }
 
-.usermotto {
-  margin-top: 200px;
+ .action {
+  display: line-block;
+  justify-content: inherit;
+} 
+
+.joinRoom{
+  border: 1rpx solid red;
+  text-align: center;
 }
