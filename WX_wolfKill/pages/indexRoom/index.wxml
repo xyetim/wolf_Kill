@@ -11,8 +11,11 @@
 
 
   <view class="action">
-    <button >创建房间</button>
+    <button class="createRoom">创建房间</button>
     <input class="joinRoom" placeholder="加入房间" ></input>
   </view>
-  
+
+<view class="botton">
+  <text>波哥无敌</text>
+</view>
 </view>

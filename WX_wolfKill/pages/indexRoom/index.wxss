@@ -2,30 +2,36 @@
 .userinfo {
   display: flex;
   flex-direction: column;
-  align-items: center;  
-  position: relative;
-
-
-
+  justify-content: space-between;
+  align-self: flex-start;
 }
 
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
-  margin: 20rpx;
+  margin: 20rpx; 
   border-radius: 50%;
 }
 
 .userinfo-nickname {
   color: #aaa;
+  align-self: center;
 }
 
  .action {
-  display: line-block;
-  justify-content: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  justify-content: space-between;
 } 
+
+.createRoom{
+  width: 100%;
+}
 
 .joinRoom{
   border: 1rpx solid red;
   text-align: center;
+  height: 46px;
 }
+
