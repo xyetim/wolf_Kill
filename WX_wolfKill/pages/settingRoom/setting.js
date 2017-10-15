@@ -1,4 +1,4 @@
-// pages/waitingRoom/waiting.js
+// pages/settingRoom/setting.js
 Page({
 
   /**

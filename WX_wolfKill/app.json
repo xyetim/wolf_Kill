@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/settingRoom/setting",
     "pages/indexRoom/index",
     "pages/gamingRoom/gaming",
-    "pages/waitingRoom/waiting",
-    "pages/userInfo/UserInfo"
+    "pages/userInfo/UserInfo",
+    "pages/settingRoom/settingRoom",
+    "pages/setting"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,13 +13,19 @@
     "navigationBarTitleText": "宇宙无敌狼人杀法官小程序",
     "navigationBarTextStyle": "black"
   },
-  "tabBar":{
-    "list":[
-      {"text":"游戏界面","pagePath":"pages/indexRoom/index"},
-      {"text":"用户信息","pagePath":"pages/userInfo/UserInfo"}
+  "tabBar": {
+    "list": [
+      {
+        "text": "游戏界面",
+        "pagePath": "pages/indexRoom/index"
+      },
+      {
+        "text": "用户信息",
+        "pagePath": "pages/userInfo/UserInfo"
+      }
     ],
-    "backgroundColor":"#ffffff",
-    "color":"#000033",
-    "selectedColor":"#ff0000"
+    "backgroundColor": "#ffffff",
+    "color": "#000033",
+    "selectedColor": "#ff0000"
   }
 }
