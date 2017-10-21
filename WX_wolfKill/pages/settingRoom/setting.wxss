@@ -1,1 +1,34 @@
 /* pages/settingRoom/setting.wxss */
+.sumNum{
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-start;
+}
+
+.picker{
+  border: 1px solid red;
+}
+
+.checkbox{
+  display: inline-block;
+}
+
+.item{
+  margin-left: 20rpx;
+}
+
+.num_farmer{
+  display: block;
+  margin:0 20rpx;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.define{
+  display: flex;
+  height: 40%;
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
