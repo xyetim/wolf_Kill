@@ -1,2 +1,27 @@
-<!--pages/gamingRoom/gaming.wxml-->
-<text>pages/gamingRoom/gaming.wxml</text>
+<import src="../Template/userSquareTpl.wxml"/>
+
+<view class="gaming_container">
+  <view class="left">
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+  </view>
+
+  <view class="main">
+    <text>
+      游戏过程中的进程都写在这里哦
+    </text>
+  </view>
+
+  <view class="right">
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+
+<template name="userSquareTpl">
+<view class="userInfo">
+  <view class="photo">
+      头像
+  </view>
+  <view class="user">
+     微信名称
+  </view>
+</view>
+</template>
