@@ -1,2 +1,18 @@
 <!--pages/watingRoom/wating.wxml-->
-<text>pages/watingRoom/wating.wxml</text>
+<import src="../Template/userSquareTpl.wxml"/>
+
+
+<view class="seats">
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+    <template is="userSquareTpl"/>
+</view>

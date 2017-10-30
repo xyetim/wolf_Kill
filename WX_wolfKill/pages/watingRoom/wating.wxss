@@ -1,1 +1,9 @@
 /* pages/watingRoom/wating.wxss */
+@import "../Template/userSquareTpl.wxss"
+
+.seats{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  table-layout: 4;
+}

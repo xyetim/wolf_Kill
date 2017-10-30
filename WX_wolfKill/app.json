@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/watingRoom/wating",
     "pages/gamingRoom/gaming",        
     "pages/settingRoom/setting",
     "pages/indexRoom/index",
-    "pages/userInfo/UserInfo",
-    "pages/watingRoom/wating"
+    "pages/userInfo/UserInfo"
   ],
   "window": {
     "backgroundTextStyle": "light",

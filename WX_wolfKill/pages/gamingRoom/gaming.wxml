@@ -25,3 +25,7 @@
     <template is="userSquareTpl"/>
   </view>
 </view>
+
+<view>
+  <button class='define'>确定</button>
+</view>

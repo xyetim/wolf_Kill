@@ -28,3 +28,8 @@
   flex-grow: 8;
 }
 
+.define{
+  width: 50%;
+  top: 20rpx;
+}
+
