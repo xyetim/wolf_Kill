@@ -2,8 +2,27 @@
 @import "../Template/userSquareTpl.wxss"
 
 .seats{
+  display: grid;
+  grid-template-columns: 150rpx  150rpx  150rpx  150rpx;
+  grid-template-rows: 150rpx  150rpx  150rpx;
+}
+
+.button{
+  width: 200rpx;
+  position: relative;
+  margin-bottom: 15rpx;
+}
+
+.chatArea{
+  border: 1px solid red;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  table-layout: 4;
+  width: 600rpx;
+  height: 550rpx;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.input{
+  border: 1px solid red;
+  width: 100%;
 }

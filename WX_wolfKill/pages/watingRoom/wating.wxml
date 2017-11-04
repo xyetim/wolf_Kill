@@ -2,7 +2,8 @@
 <import src="../Template/userSquareTpl.wxml"/>
 
 
-<view class="seats">
+<view class="container">
+  <view class="seats">
     <template is="userSquareTpl"/>
     <template is="userSquareTpl"/>
     <template is="userSquareTpl"/>
@@ -15,4 +16,15 @@
     <template is="userSquareTpl"/>
     <template is="userSquareTpl"/>
     <template is="userSquareTpl"/>
+  </view>
+
+  <view>
+    <button class='button'>准备</button>
+  </view>
+
+  <view class='chatting'>
+    <view class='chatArea'>
+      <input class='input' placeholder='在此处输入'></input>
+    </view>
+  </view>
 </view>

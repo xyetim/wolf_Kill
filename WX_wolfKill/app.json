@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/indexRoom/index",
     "pages/watingRoom/wating",
     "pages/gamingRoom/gaming",        
     "pages/settingRoom/setting",
-    "pages/indexRoom/index",
     "pages/userInfo/UserInfo"
   ],
   "window": {
