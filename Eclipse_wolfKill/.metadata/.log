@@ -117,3 +117,38 @@ Agreeing to the Xcode/iOS license requires admin privileges, please run âsu
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-24 12:21:15.614
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2017-11-05 00:33:04.597 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -show-splash org.eclipse.platform -keyring /Users/youshuhao/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -show-splash org.eclipse.platform -keyring /Users/youshuhao/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-11-05 00:33:19.102
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-11-05 00:33:38.055
+!MESSAGE Removing part descriptor with the 'com.jfinalide.views.ChangeSplashImageView' id and the 'Change Splash Image' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-11-05 00:33:41.909
+!MESSAGE 
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run âsudo xcodebuild -licenseâ and then retry this command.
+
+
+
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-11-05 00:33:42.428
+!MESSAGE 
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run âsudo xcodebuild -licenseâ and then retry this command.
+
+
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-11-05 00:33:47.472
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-11-05 00:33:47.489
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

@@ -4,15 +4,15 @@
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
 
 
   <view class="action">
-    <button class="createRoom">创建房间</button>
-    <input class="joinRoom" placeholder="加入房间" ></input>
+    <button class="createRoom" bindtap='createRoom'>创建房间</button>
+    <input class="joinRoom" type="number" placeholder="加入房间"  bindconfirm='joinRoom'></input>
   </view>
 
 <view class="botton">

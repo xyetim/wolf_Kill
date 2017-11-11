@@ -9,3 +9,16 @@
 	http://www.jianshu.com/p/e2eb0d8c9de6   ————box-sizing
 	http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html————display:flex
 	http://www.ruanyifeng.com/blog/2015/07/flex-examples.html————display:flex实例
+
+JavaScript slice() 方法
+实例
+在数组中读取元素：
+var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+var citrus = fruits.slice(1,3);
+citrus 结果输出:
+Orange,Lemon
+
+尝试一下 »
+定义和用法
+slice() 方法可从已有的数组中返回选定的元素。
+slice()方法可提取字符串的某个部分，并以新的字符串返回被提取的部分。

@@ -9,10 +9,14 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
-  bindViewTap: function() {
+  createRoom: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../settingRoom/setting'
     })
+  },  
+  joinRoom:function(e){
+    var roomId = e.detail.value;
+    
   },
   onLoad: function () {
     if (app.globalData.userInfo) {

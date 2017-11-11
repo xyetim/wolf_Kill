@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="wolf_Kill">
-        <property name="context-root" value="wolf_Kill"/>
-        <property name="java-output-path" value="/wolf_Kill/target/classes"/>
-    </wb-module>
-</project-modules>
