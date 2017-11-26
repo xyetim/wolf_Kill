@@ -8,16 +8,6 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
-  //事件处理函数
-  createRoom: function() {
-    wx.navigateTo({
-      url: '../settingRoom/setting'
-    })
-  },  
-  joinRoom:function(e){
-    var roomId = e.detail.value;
-    
-  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
@@ -53,5 +43,15 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  //事件处理函数
+  createRoom: function () {
+    wx.navigateTo({
+      url: '../settingRoom/setting'
+    })
+  },
+  joinRoom: function (e) {
+    var roomId = e.detail.value;
+    
   }
 })

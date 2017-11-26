@@ -1,55 +1,52 @@
 <!--pages/settingRoom/setting.wxml-->
 <view class="container">
-  <view>
-    1、游戏总人数
-    2、神的身份有哪些 
-    3、狼人有没有恶魔、白狼王、黑狼王
-    4、剩余玩家为村民
 
+  <form class="form" bindsubmit="formsubmit" bindreset="reset">
     <view class="sumNum" >
       <label>1、游戏总人数:</label> 
-      <picker bindchange="bindPickerChange" value="{{index}}" range="{{sums}}">
+      <picker name="pickers" value="{{index}}" range="{{sums}}" bindchange='pickerChange'>
         <view class="picker">
-          当前选择：{{sums[index]}}
+          当前选择：{{sumPeople}}人
         </view>
       </picker>
     </view>
 
     <view class="gods">
       <label>2、有哪些神?</label>
-        <checkbox-group bindchange="checkboxChange">
+        <checkbox-group name="checkbox" bindchange="checkboxChange">
           <label class="checkbox_gods" wx:for="{{gods}}">
-            <checkbox class="item" value="{{item.name}}" checked="{{item.checked}}"/>{{item.name}}
+            <checkbox class="item" value="{{item.value}}" checked="{{item.checked}}"/>{{item.name}}
           </label>
         </checkbox-group>
     </view>
     
     <view class="wolves">
       <label>3、有多少狼人 </label>
-      <radio-group class="radio-group" bindchange="radioChange">
+      <radio-group name="radiogroup" class="radio-group">
         <label class="radio" wx:for="{{wolves}}">
-          <radio class="item" value="{{item.name}}" checked="{{item.checked}}"/>{{item.name}}
+          <radio class="item" value="{{item.value}}" checked="{{item.checked}}"/>{{item.name}}
         </label>
-    </radio-group>
+       </radio-group>
     </view>
 
     <view class="farmer">
       <label>4、农民有多少个</label>
-      <text class="num_farmer">111</text>
+      <text name="text" class="num_farmer">{{sums[index]}}</text>
     </view>
 
     <view class="police">
       <label>5、是否竞选警长</label>
-      <radio-group class="radio-group" bindchange="radioChange_police">
+      <radio-group name="radio_police" class="radio-group">
         <label class="radio" wx:for="{{police}}">
-          <radio class="item" value="{{item.name}}" checked="{{item.checked}}"/>{{item.name}}
+          <radio class="item" value="{{item.value}}" checked="{{item.checked}}"/>{{item.name}}
         </label>
-    </radio-group>
+      </radio-group>
     </view>
-  </view>
 
-  <view class="define">
-    <button>确定</button>
-    <button>重选</button>
-  </view>
+    <view class="define">
+      <button formType="submit">确定</button>
+      <button formType="reset">重选</button>
+    </view>
+
+  </form>
 </view>

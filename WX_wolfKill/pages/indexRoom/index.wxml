@@ -9,13 +9,12 @@
     </block>
   </view>
 
-
   <view class="action">
     <button class="createRoom" bindtap='createRoom'>创建房间</button>
     <input class="joinRoom" type="number" placeholder="加入房间"  bindconfirm='joinRoom'></input>
   </view>
 
 <view class="botton">
-  <text>波哥无敌</text>
+  <text>bbbbbbbbb</text>
 </view>
 </view>
