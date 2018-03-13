@@ -1,52 +1,55 @@
-<!--pages/settingRoom/setting.wxml-->
-<view class="container">
+<view class='container'>
+  
+  <scroll-view scroll-y='true'>
+      <!-- 顶部Banner -->
+      <view class='topBanner'>
+          <text>注意：
+          波哥只负责 第一天 夜里的信息收集、发送与判断
+          </text>
+      </view>
 
-  <form class="form" bindsubmit="formsubmit" bindreset="reset">
-    <view class="sumNum" >
-      <label>1、游戏总人数:</label> 
-      <picker name="pickers" value="{{index}}" range="{{sums}}" bindchange='pickerChange'>
-        <view class="picker">
-          当前选择：{{sumPeople}}人
+      <!-- 神配置 -->
+      <text style='font-size:18px'>神民配置</text>
+      <view class='godArea'>
+
+        <view>
+            选项
         </view>
-      </picker>
-    </view>
 
-    <view class="gods">
-      <label>2、有哪些神?</label>
-        <checkbox-group name="checkbox" bindchange="checkboxChange">
-          <label class="checkbox_gods" wx:for="{{gods}}">
-            <checkbox class="item" value="{{item.value}}" checked="{{item.checked}}"/>{{item.name}}
-          </label>
+        <checkbox-group>
+            <label class="checkbox" wx:for="{{items}}">
+                <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+            </label>
         </checkbox-group>
-    </view>
-    
-    <view class="wolves">
-      <label>3、有多少狼人 </label>
-      <radio-group name="radiogroup" class="radio-group">
-        <label class="radio" wx:for="{{wolves}}">
-          <radio class="item" value="{{item.value}}" checked="{{item.checked}}"/>{{item.name}}
-        </label>
-       </radio-group>
-    </view>
+      </view>
 
-    <view class="farmer">
-      <label>4、农民有多少个</label>
-      <text name="text" class="num_farmer">{{sums[index]}}</text>
-    </view>
+      <!-- 狼人配置 -->
+      <text style='font-size:18px'>狼人配置</text>
+      <view class='wolvesArea'>
+      
+      </view>
 
-    <view class="police">
-      <label>5、是否竞选警长</label>
-      <radio-group name="radio_police" class="radio-group">
-        <label class="radio" wx:for="{{police}}">
-          <radio class="item" value="{{item.value}}" checked="{{item.checked}}"/>{{item.name}}
-        </label>
-      </radio-group>
-    </view>
+      <!-- 村民配置 -->
+      <text style='font-size:18px'>村民配置</text>
+      <view class='farmerArea'>
+      
+      </view>
 
-    <view class="define">
-      <button formType="submit">确定</button>
-      <button formType="reset">重选</button>
-    </view>
+      <!-- 特殊身份 -->
+      <text style='font-size:18px'>特殊身份</text>
+      <view class='specialArea'>
+      
+      </view>
 
-  </form>
+      <!-- 技能配置 -->
+      <text style='font-size:18px'>技能配置</text>
+      <view class='skillArea'>
+
+      </view>
+  </scroll-view>
+
+  <!-- 完成配置按钮 -->
+  <view class='bottom'>
+    <button class='complete'>完 成 配 置</button>
+  </view>
 </view>

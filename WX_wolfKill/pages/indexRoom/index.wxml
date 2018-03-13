@@ -1,20 +1,26 @@
-<!--index.wxml-->
-<view class="container">
+<view class='container'>
+  <view class='top'>
+    <view class='icon'>
+      <image src='banana.jpg' class='icon_ima'></image>
+    </view>
+    <view class='slogan'>
+      <text>少和手机缠绵，多和朋友见面</text>
+    </view>
+  </view>
   
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+  <view class='middle'>
+    <view>
+      <button class='create' bindtap='createRoom'>创 建 房 间</button>
+    </view>
+    <view>
+      <button class='join' bindtap='joinRoom'>加 入 房 间</button>
+    </view>
   </view>
 
-  <view class="action">
-    <button class="createRoom" bindtap='createRoom'>创建房间</button>
-    <input class="joinRoom" type="number" placeholder="加入房间"  bindconfirm='joinRoom'></input>
+  <view class='bottom'>
+    <view class='intro'>
+      <text class='intro_text'>角 色 介 绍</text>
+      <text class='intro_text'>联 系 作 者</text>
+    </view>
   </view>
-
-<view class="botton">
-  <text>bbbbbbbbb</text>
-</view>
 </view>

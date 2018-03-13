@@ -1,35 +1,48 @@
-/* pages/settingRoom/setting.wxss */
-.sumNum{
-  display: flex;
-  flex-direction: row; 
-  justify-content: flex-start;
+scroll-view{
+  height: 800px;
+  background: #C0C0C0;
 }
 
-.picker{
-  border: 1px solid red;
+view{
+  background: white;
 }
 
-.checkbox{
-  display: inline-block;
+.topBanner{
+  font-size: 14px;
+  text-align: center;
 }
 
-.item{
-  margin-left: 20rpx;
+.godArea{
+  height: 150px;
 }
 
-.num_farmer{
-  display: block;
-  margin:0 20rpx;
+.wolvesArea{
+  height: 150px;
+}
+
+.farmerArea{
+  height: 150px;
+}
+
+.specialArea{
+  height: 150px;
+}
+
+.skillArea{
+  height: 200px;
+}
+
+
+.bottom{
   width: 100%;
-  border: 1px solid red;
+  position: fixed;
+  bottom: 10px;
 }
 
-.define{
-  display: flex;
-  height: 40%;
-  width: 100%;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
+.complete{
+  width : 100%;
+  /* border: solid 1px #fff000; */
+  background: green;
+  font-family: arial;
+  color:white;
 }
-
