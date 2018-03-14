@@ -4,16 +4,23 @@ Page({
    * 页面的初始数据
    */
   data: {
-    items: [
-      { name: 'USA', value: '美国' },
-      { name: 'CHN', value: '中国', checked: 'true' },
-      { name: 'BRA', value: '巴西' },
-      { name: 'JPN', value: '日本' },
-      { name: 'ENG', value: '英国' },
-      { name: 'TUR', value: '法国' },
+    gods: [
+      { name: '预言家', value: 'yuyanjia',checked : false},
+      { name: '女巫', value: 'nvwu', checked: false},
+      { name: '猎人', value: 'lieren', checked: false },
+      { name: '白痴', value: 'baichi', checked: false },
+      { name: '守卫', value: 'shouwei', checked: false},
+      { name: '狐狸', value: 'huli', checked: false },
+    ],
+    wolves :[
+      { name: '白狼王', value: 'bailangwang', checked: false },
+      { name: '黑狼王', value: 'heilangwang', checked: false },
+      { name: '恶魔', value: 'emo', checked: false }
     ]
   },
-  checkboxChange: function (e) {
-    console.log('checkbox发生change事件，携带value值为：', e.detail.value)
-  },
+  onCustomeTap : function(e){
+    var types = e.detail.types;
+    var results = e.detail.results;
+    this.data[types] = results;
+  }
 })

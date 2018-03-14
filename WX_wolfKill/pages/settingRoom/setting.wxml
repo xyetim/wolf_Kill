@@ -11,22 +11,18 @@
       <!-- 神配置 -->
       <text style='font-size:18px'>神民配置</text>
       <view class='godArea'>
-
-        <view>
-            选项
-        </view>
-
-        <checkbox-group>
-            <label class="checkbox" wx:for="{{items}}">
-                <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
-            </label>
-        </checkbox-group>
+          <customer-checkbox x-properties='{{gods}}' x-type='gods' bindcustometap='onCustomeTap'></customer-checkbox>
       </view>
 
       <!-- 狼人配置 -->
       <text style='font-size:18px'>狼人配置</text>
       <view class='wolvesArea'>
-      
+        <view style='height:60%'>
+            <customer-checkbox x-properties='{{wolves}}' x-type='wolves' bindcustometap='onCustomeTap'></customer-checkbox>
+        </view>
+        <view style='height:40%'>
+          
+        </view>
       </view>
 
       <!-- 村民配置 -->

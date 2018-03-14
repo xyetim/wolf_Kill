@@ -1,0 +1,4 @@
+<!--pages/customer-checkbox/customer-checkbox.wxml-->
+<view class='wrapper'>
+  <view wx:for='{{xProperties}}' data-item='{{item}}' data-index='{{index}}' bindtap='chooseThis' class="{{item.checked ? 'checked' : 'nochecked'}}">{{item.name}}</view>
+</view>

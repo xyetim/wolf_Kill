@@ -1,5 +1,5 @@
 scroll-view{
-  height: 800px;
+  height: 600px;
   background: #C0C0C0;
 }
 
@@ -13,19 +13,19 @@ view{
 }
 
 .godArea{
-  height: 150px;
+  height: 100px;
 }
 
 .wolvesArea{
-  height: 150px;
+  height: 100px;
 }
 
 .farmerArea{
-  height: 150px;
+  height: 100px;
 }
 
 .specialArea{
-  height: 150px;
+  height: 100px;
 }
 
 .skillArea{

@@ -1,4 +1,7 @@
 {
+   "usingComponents": {
+        "customer-checkbox": "../customer-checkbox/customer-checkbox"
+      },
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "游戏配置设置",
